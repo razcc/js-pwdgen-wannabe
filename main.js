@@ -1,4 +1,20 @@
 const numeroFissoPassword= "21";
-console.log(numeroFissoPassword);
+// console.log(numeroFissoPassword);
+
+// Nome Utente
 let nomeUtente= prompt("Scrivi il tuo nome");
-console.log(nomeUtente);
+// console.log(nomeUtente);
+
+// Cognome Utente
+let cognomeUtente= prompt("Scrivi il tuo Cognome");
+// console.log(cognomeUtente);
+
+// Colore preferito
+let colorePreferito= prompt("Scrivi il tuo colore preferito");
+// console.log(colorePreferito);
+
+// Stampa dei valori
+
+document.getElementById("nomeUtente").innerHTML= `Il nome dell'utente è: ${nomeUtente}`
+document.getElementById("cognomeUtente").innerHTML= `Il cognome dell'utente è: ${cognomeUtente}`
+document.getElementById("colorePreferito").innerHTML= `Il colore prefertito è: ${colorePreferito}`
